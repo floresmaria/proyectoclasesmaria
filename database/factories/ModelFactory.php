@@ -32,3 +32,13 @@ $factory->define(App\Materia::class, function (Faker\Generator $faker) {
     ];
 });
 
+
+$factory->define(App\Contenido::class, function (Faker\Generator $faker) {
+
+    return [
+        'nombrec' => $faker->sentence(2),
+        'objetivo' => $faker->sentence(2),
+        
+    ];
+});
+

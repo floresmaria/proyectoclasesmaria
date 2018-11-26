@@ -5,7 +5,8 @@
     
 
     <div class="tabla-responsive">
-    <div class="row">
+    <div class="row"><br>
+      <center><h3>Seleccione el mes</3></center><br>
           <?php  $nombremes=array("","ENERO","FEBRERO","MARZO","ABRIL","MAYO","JUNIO","JULIO","AGOSTO","SEPTIEMBRE","OCTUBRE","NOVIEMBRE","DICIEMBRE"); ?>
 
 <div  class="row" >

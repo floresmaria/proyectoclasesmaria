@@ -14,3 +14,4 @@ class MateriasTableSeeder extends Seeder
         factory(Materia::class, 80)->create();
     }
 }
+ 

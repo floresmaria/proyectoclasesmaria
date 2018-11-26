@@ -1,5 +1,5 @@
-@extends('layout')
-
+@extends('layout') 
+ 
 @section('content')
 	<div class="col-xs-12">
 		<h2>

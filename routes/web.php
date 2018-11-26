@@ -19,17 +19,23 @@ Route::group(['middleware' => 'auth'], function () {
        // Route::get('/link1', function ()    {
        // Uses Auth Middleware
    // });
+ 
+    // Modulos
 		Route::resource('materias', 'MateriaController');
+    Route::resource('contenidos', 'ContenidoController');
+    Route::resource('clases', 'ClaseController');
+
+
+    // Reportes PDF
 		Route::resource('reportes', 'PDFController');
     Route::get('crear_reporte_materias/{tipo}', 'PdfController@crear_reporte_materias');
 
+    // Reportes Gráficas
     Route::get('listado_graficas', 'GraficasController@index');
-
     Route::get('grafica_registros/{anio}/{mes}', 'GraficasController@registros_mes');
-    // Route::get('grafica_publicaciones', 'GraficasController@total_publicaciones');
 
   
-		
+		   
 		
 		
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.

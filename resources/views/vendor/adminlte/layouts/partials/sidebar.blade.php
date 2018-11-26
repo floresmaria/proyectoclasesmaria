@@ -38,14 +38,10 @@
                 <a href="{{ url('materias') }}"><i class='fa fa-book'></i> <span>{{ trans('adminlte_lang::message.materias') }}</span> </a>
             </li>
             <li class="{{ active('contenidos') }}">
-                <a href="#"><i class='fa fa-book'></i> <span>{{ trans('adminlte_lang::message.contenidos') }}</span></a>
+                <a href="{{ url('contenidos') }}"><i class='fa fa-book'></i> <span>{{ trans('adminlte_lang::message.contenidos') }}</span></a>
             </li>            
             <li class="treeview">
-                <a href="#"><i class='fa fa-book'></i> <span>{{ trans('adminlte_lang::message.clases') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
-              <!--   <ul class="treeview-menu">
-                    <li><a href="{!! url('clasel')  !!}">{{ trans('adminlte_lang::message.listar') }}</a></li>
-                    <li><a href="{!! url('claser')  !!}">{{ trans('adminlte_lang::message.registrar') }}</a></li>
-                </ul> -->
+                <a href="{{ url('clases') }}"><i class='fa fa-book'></i> <span>{{ trans('adminlte_lang::message.clases') }}</span> 
             </li>
             <li class="treeview">
                 <a href="#"><i class='fa fa-user'></i> <span>{{ trans('adminlte_lang::message.reportes') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
