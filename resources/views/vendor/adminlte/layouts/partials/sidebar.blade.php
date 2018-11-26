@@ -47,6 +47,13 @@
                     <li><a href="{!! url('claser')  !!}">{{ trans('adminlte_lang::message.registrar') }}</a></li>
                 </ul> -->
             </li>
+            <li class="treeview">
+                <a href="#"><i class='fa fa-user'></i> <span>{{ trans('adminlte_lang::message.reportes') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
+                 <ul class="treeview-menu">
+                    <li><a href="{!! url('reportes')  !!}">{{ trans('adminlte_lang::message.pdf') }}</a></li>
+                    <li><a href="{!! url('listado_graficas')  !!}">{{ trans('adminlte_lang::message.graficas') }}</a></li>
+                </ul> 
+            </li>
           <!-- ............................... -->
            <!--  <li><a href="{!! url('products')  !!}"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.products') }}</span></a></li> -->
 
